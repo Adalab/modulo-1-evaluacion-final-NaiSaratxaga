@@ -10,26 +10,34 @@
   <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap"
-    rel="stylesheet">">
+    rel="stylesheet">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets.css/normalize.css" />
-  <link rel="stylesheet" href="./assets.css/main.css" />
+  <link rel="stylesheet" href="./assets/css/normalize.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
 
   <title>Evaluación final</title>
 </head>
 
 <body>
-  <header class="header">
+  <header class="container-header">
 
-      <img src="./images/hamburger.png" alt="icono menu hamburger" title="icono menu hamburger" />
-      <img src="./images/logo.png" alt="logotipo" title="imagen logotipo" />
-      <img src="./images/header.jpg" alt="imagen header" title="imagen principal web" />
+      <div class="icon-menu"><img src=" ./assets/images/icon/bars-solid.svg" alt="icono menu hamburger"
+              title="icono menu hamburger" />
+      </div>
+
+      <div class="logo">
+          <img src="./assets/images/logo.png" alt="logotipo" title="imagen logotipo" />
+      </div>
+
+      <div class="hero">
+          <img src="./assets/images/header.jpg" alt="imagen header" title="imagen principal web" />
+      </div>
 
       <section>
 
-          <h1>Disfruta creando espacios</h1>
-          <button>Comprar ahora</button>
+          <h1 class="title">Disfruta creando espacios</h1>
+          <button class="button">Comprar ahora</button>
 
       </section>
 
@@ -37,11 +45,11 @@
 
   <section>
     <main>
-        <section>
+        <section class="section1">
             <h2>Volverse organizado se siente mejor con Open Spaces</h2>
 
             <article>
-                <img src="./images/icon_1.png" alt="icono 1" title="Icono primera sección" />
+                <img src="./assets/images/icon_1.png" alt="icono 1" title="Icono primera sección" />
                 <h3>Lo que necesitas</h3>
                 <h4>Una linea de productos diseñados para todos tus espacios</h4>
             </article>
@@ -51,7 +59,7 @@
         <section>
 
             <article>
-                <img src="./images/icon_2.png" alt="icono 2" title="Icono primera sección" />
+                <img src="./assets/images/icon_2.png" alt="icono 2" title="Icono primera sección" />
                 <h3>Materia primas sustentables</h3>
                 <h4>Todos los productos con materias primas sustentables</h4>
             </article>
@@ -62,20 +70,20 @@
         <section>
 
             <article>
-                <img src="./images/icon_3.png" alt="icono 3" title="Icono primera sección" />
+                <img src="./assets/images/icon_3.png" alt="icono 3" title="Icono primera sección" />
                 <h3>Guía</h3>
                 <h4>Soporte y asesoramiento para ayudarte con tu objetivo</h4>
             </article>
 
         </section>
-        <section>
-            <article> <img src="./images/icon_4.png" alt="icono 4" title="Icono segunda sección" />
+        <section class="section2">
+            <article> <img src="./assets/images/icon_4.png" alt="icono 4" title="Icono segunda sección" />
                 <h2>Envío gratis garantizado</h2>
                 <h4>Envío gratis en compras desde 100</h4>
                 <h3>Comprar ahora</h3>
             </article>
         </section>
-        <section>
+        <section class="section3">
             <article>
                 <h2>Disfruta creando espacios</h2>
                 <h3>Una línea de productos diseñados para todos tus espacios</h3>
@@ -84,15 +92,15 @@
         </section>
 
         <section>
-            <img src="./images/creando-espacios.jpg" alt=" imagen sección dos" title="imagen segunda sección" />
+            <img src="./assets/images/creando-espacios.jpg" alt=" imagen sección dos" title="imagen segunda sección" />
         </section>
     </main>
   </section>
 
-  <footer>
-      <nav>
-          <ul>
-              <li>Tienda</li>
+  <footer class="container">
+      <nav class="links">
+          <ul class="subtitle">
+              <li class="title">Tienda</li>
               <li>Productos</li>
               <li>Cajoneras</li>
               <li>Para toda la casa</li>
@@ -101,8 +109,8 @@
       </nav>
 
       <nav>
-          <ul>
-              <li>Nosotros</li>
+          <ul class="subtitle">
+              <li class="title">Nosotros</li>
               <li>Nuestra guía</li>
               <li>Nuestro diseño</li>
               <li>Nuestra historia</li>
@@ -111,21 +119,21 @@
       </nav>
 
       <nav>
-          <ul>
-              <li>Contacto</li>
+          <ul class="subtitle">
+              <li class="title">Contacto</li>
               <li>Ayuda@openspaces.com</li>
               <li>Socios</li>
           </ul>
       </nav>
 
-      <nav>
-          <img src="./images/Linkedln.png" alt="icono Linkedln" title="icono redes sociales" />
-          <img src="./images/instagram.png" alt="icono Instagram" title="icono redes sociales" />
-          <img src="./images/twitter.png" alt="icono Twitter" title="icono redes sociales" />
+      <nav class="icon">
+          <img src="../assets/images/icon/linkedin-in-brands.svg" alt="icono Linkedln" title="icono redes sociales" />
+          <img src="../assets/images/icon/instagram-brands.svg" alt="icono Instagram" title="icono redes sociales" />
+          <img src="../assets/images/icon/twitter-brands.svg" alt="icono Twitter" title="icono redes sociales" />
       </nav>
 
-      <nav>
-          <img src="./images/short_up.png" alt="icono flecha" title="flecha ancla" />
+      <nav class="icon">
+          <img src="../assets/images/icon/arrow-up-solid.svg" alt="icono flecha" title="flecha ancla" />
       </nav>
 
   </footer>

@@ -1,6 +1,32 @@
-.footer {
+.container {
+  width: 413px;
+  height: 545px;
+  margin: 304px 1px 0 0;
+  padding: 56px 28px 16px 146px;
+  background-color: #0c474b;
+}
+
+.title {
   width: 100%;
-  min-width: 320px;
-  text-align: center;
-  background-color: $darkGreen;
+  text-transform: capitalize;
+  font-family: $poppins;
+  font-weight: $poppinsSemi;
+  font-size: 20px;
+  color: #b6c8c9;
+}
+.subtitle {
+  width: 100%;
+  text-transform: capitalize;
+  font-family: $poppins;
+  font-weight: $poppinsRegu;
+  font-size: 14px;
+  color: #b6c8c9;
+}
+
+.icon {
+  margin-top: 10px;
+  width: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
