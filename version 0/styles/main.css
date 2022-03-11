@@ -1,0 +1,29 @@
+:root {
+  /** Typography **/
+  --poppins: "Poppins", sans-serif;
+  --poppinsSemi: 600;
+  --poppinsRegu: 400;
+
+  /* Color */
+  --light-grey: #f0ebe5;
+  --orenge: #ff975a;
+  --darkGreen: #0c474b;
+  --grey: #b6c8c9;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
