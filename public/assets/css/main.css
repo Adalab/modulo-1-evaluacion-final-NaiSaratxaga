@@ -317,38 +317,75 @@ a {
 ul {
   list-style: none; }
 
-.container-header {
-  width: 414px;
-  height: 389px;
-  padding: 19px 0 64px; }
+.header {
+  padding-top: 55px;
+  position: absolute;
+  z-index: 99;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row; }
 
 .icon-menu {
   width: 24px;
   height: 24px;
-  margin: 36px 43px 136px 33px;
-  -o-object-fit: contain;
-  object-fit: contain; }
+  margin: 36px 43px 136px 33px; }
 
 .logo {
   width: 213px;
-  height: 96px;
-  margin: 0 101px 100px 43px; }
+  height: 96px; }
 
-.hero {
-  background-image: url("../images/header.jpg");
+.main {
+  width: 100%;
+  text-align: center; }
+
+.section {
   width: 414px;
   height: 389px;
   padding: 19px 0 64px; }
 
-.title {
-  width: 414px;
-  height: 38px;
-  margin: 100px 0 24px;
+.section1 {
+  background-color: #f0ebe5;
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-weight: 600;
+  color: #0c474b;
+  width: 414px;
+  height: 1108px;
+  padding: 41px 47px 18px 45px; }
+
+.section2 {
+  background-color: #ff975a;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  width: 414px;
+  height: 352px;
+  padding: 46px 0 51px; }
+
+.section3 {
+  background-color: #f0ebe5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #0c474b;
+  width: 414px;
+  height: 389px;
+  padding: 19px 0 64px; }
+
+.img {
+  width: 414px;
+  height: 339px; }
+
+.title {
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
   color: #0c474b; }
+
+.hero {
+  width: 100%;
+  height: 389px;
+  padding: 19px 0 64px;
+  display: flex;
+  flex-direction: column; }
 
 .button {
   width: 176px;
@@ -361,28 +398,6 @@ ul {
   margin: 24px 119px 0 62px;
   padding: 12px 24px;
   background-color: #0c474b; }
-
-.main {
-  width: 100%;
-  text-align: center; }
-
-.section1 {
-  background-color: #f0ebe5;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #0c474b; }
-
-.section2 {
-  background-color: #ff975a;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #ffffff; }
-
-.section3 {
-  background-color: #f0ebe5;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #0c474b; }
 
 .container {
   width: 413px;
