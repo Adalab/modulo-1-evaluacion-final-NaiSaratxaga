@@ -1,20 +1,11 @@
 .header {
-  position: sticky;
-  z-index: 99;
-  top: 0;
-  left: 0;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-}
-
-.menu-icon {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 33px;
-  top: 55px;
+  z-index: 98;
+  width: 100%;
 }
 
 .logo {

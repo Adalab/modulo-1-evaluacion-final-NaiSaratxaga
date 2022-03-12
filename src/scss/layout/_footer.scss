@@ -1,32 +1,25 @@
-.container {
-  width: 413px;
-  height: 545px;
-  margin: 304px 1px 0 0;
-  padding: 56px 28px 16px 146px;
-  background-color: #0c474b;
+.container-footer {
+  width: 100%;
+  background-color: $dark-green;
 }
 
-.title {
-  width: 100%;
+.title-footer {
   text-transform: capitalize;
   font-family: $poppins;
-  font-weight: $poppinsSemi;
+  font-weight: $poppins-semi;
   font-size: 20px;
-  color: #b6c8c9;
+  color: $grey;
 }
-.subtitle {
-  width: 100%;
+.subtitle-footer {
   text-transform: capitalize;
   font-family: $poppins;
-  font-weight: $poppinsRegu;
+  font-weight: $poppins-regu;
   font-size: 14px;
-  color: #b6c8c9;
+  color: $grey;
 }
 
-.icon {
-  margin-top: 10px;
-  width: 10px;
+.icon-styles {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
 }

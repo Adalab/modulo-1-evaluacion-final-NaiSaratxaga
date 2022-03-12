@@ -1,8 +1,10 @@
 @import "core/normalize";
 @import "core/reset";
 @import "core/variables";
+@import "layout/menu";
 @import "layout/header";
-@import "layout/main/main-index";
 @import "layout/main/hero";
-// @import "layout/main";
-// @import "layout/footer";
+@import "layout/main/hightlights";
+@import "layout/main/shiping";
+@import "layout/main/enjoy";
+@import "layout/footer";
