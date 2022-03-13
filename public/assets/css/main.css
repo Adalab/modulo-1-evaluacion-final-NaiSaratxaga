@@ -360,6 +360,9 @@ ul {
     .section-hero {
       align-items: flex-start;
       padding-left: 9.188rem; } }
+  @media all and (min-width: 1200px) {
+    .section-hero {
+      padding-left: 17.5rem; } }
 
 .title {
   font-size: 1.5rem;
@@ -386,6 +389,9 @@ ul {
   background-color: #f0ebe5;
   width: 100%;
   padding: 4.375rem; }
+  @media all and (min-width: 1200px) {
+    .hightlight__section {
+      padding: 2.625rem 17.5rem 5.375rem 17.5rem; } }
 
 .hightlight__advertising {
   font-family: "Poppins", sans-serif;
@@ -394,6 +400,18 @@ ul {
   font-size: 1.5rem;
   text-align: center;
   vertical-align: middle; }
+  @media all and (min-width: 1200px) {
+    .hightlight__advertising {
+      font-size: 2.25rem;
+      max-width: 50rem;
+      margin: auto; } }
+
+.format {
+  font-size: 1.5rem;
+  text-transform: uppercase; }
+  @media all and (min-width: 1200px) {
+    .format {
+      font-size: 2.25rem; } }
 
 .hightlight__articles {
   padding-top: 2.313rem;
@@ -405,12 +423,21 @@ ul {
   @media all and (min-width: 768px) {
     .hightlight__articles {
       grid-template-columns: 1fr 1fr 1fr; } }
+  @media all and (min-width: 1200px) {
+    .hightlight__articles {
+      -moz-column-gap: 15rem;
+      column-gap: 15rem; } }
 
-@media all and (min-width: 768px) {
-  .hightlight-image {
-    width: 5.625rem;
-    height: 6.625rem;
-    margin-bottom: 2.438rem; } }
+.hightlight-image {
+  width: 5.625rem;
+  height: 5.625rem; }
+  @media all and (min-width: 768px) {
+    .hightlight-image {
+      margin-bottom: 2.438rem; } }
+  @media all and (min-width: 1200px) {
+    .hightlight-image {
+      width: 7.5rem;
+      height: 7.5rem; } }
 
 .hightlight-subtitle {
   padding-bottom: 0.75rem;
@@ -420,13 +447,9 @@ ul {
   font-size: 1.25rem;
   text-align: center;
   vertical-align: middle; }
-
-.format {
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #0c474b;
-  font-size: 1.5rem; }
+  @media all and (min-width: 1200px) {
+    .hightlight-subtitle {
+      font-size: 1.5rem; } }
 
 .text {
   font-family: "Poppins", sans-serif;
@@ -446,7 +469,9 @@ ul {
   font-family: "Poppins", sans-serif; }
 
 .shipping-image {
-  padding-bottom: 1.125rem; }
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-bottom: 1.125rem; }
 
 .sub-title-ship {
   font-size: 1.5rem;
@@ -455,11 +480,17 @@ ul {
   @media all and (min-width: 768px) {
     .sub-title-ship {
       font-size: 1.875rem; } }
+  @media all and (min-width: 1200px) {
+    .sub-title-ship {
+      font-size: 2.25rem; } }
 
 .text-ship {
   font-weight: 400;
   font-size: 0.875rem;
   padding-bottom: 1.125rem; }
+  @media all and (min-width: 1200px) {
+    .text-ship {
+      font-size: 1rem; } }
 
 .shipping-cta {
   font-size: 1rem;
@@ -475,20 +506,41 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center; }
+  @media all and (min-width: 1200px) {
+    .container-enjoy {
+      flex-direction: row; } }
 
 .container-enjoy-article {
-  padding: 5.625rem 1.68rem; }
+  padding: 5.625rem 1.68rem;
+  color: #0c474b; }
   @media all and (min-width: 768px) {
     .container-enjoy-article {
       font-size: 1.875rem; } }
+  @media all and (min-width: 1200px) {
+    .container-enjoy-article {
+      width: 50%;
+      padding-left: 17.5rem;
+      text-align: left; } }
+
+@media all and (min-width: 1200px) {
+  .container-enjoy-article-inner {
+    max-width: 21.875rem; } }
 
 .sub-title-enjoy {
   font-size: 1.5rem;
-  color: #0c474b;
   padding-bottom: 0.5rem; }
   @media all and (min-width: 768px) {
     .sub-title-enjoy {
       font-size: 1.875rem; } }
+  @media all and (min-width: 1200px) {
+    .sub-title-enjoy {
+      font-size: 2.25rem; } }
+
+.text-enjoy {
+  font-weight: 400; }
+  @media all and (min-width: 1200px) {
+    .text-enjoy {
+      text-align: left; } }
 
 .button-enjoy {
   color: #ffffff;
@@ -508,6 +560,9 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  @media all and (min-width: 1200px) {
+    .enjoy-image {
+      width: 50%; } }
 
 .container-footer {
   background-color: #0c474b;
@@ -522,6 +577,9 @@ ul {
       padding: 4.375rem 7.375rem;
       flex-direction: row;
       justify-content: space-between; } }
+  @media all and (min-width: 1200px) {
+    .container-footer-navs {
+      padding: 4.375rem 21.875rem; } }
 
 .container-footer-nav {
   padding-bottom: 1.25rem; }

@@ -7,21 +7,46 @@
   font-family: $poppins;
   font-weight: $poppins-semi;
   text-align: center;
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .container-enjoy-article {
   padding: 5.625rem 1.68rem;
+  color: $dark-green;
   @media all and (min-width: 768px) {
     font-size: $sub-title-size-m;
+  }
+  @media all and (min-width: 1200px) {
+    width: 50%;
+    padding-left: 17.5rem;
+    text-align: left;
+  }
+}
+
+.container-enjoy-article-inner {
+  @media all and (min-width: 1200px) {
+    max-width: 21.875rem;
   }
 }
 
 .sub-title-enjoy {
   font-size: $sub-title-size;
-  color: $dark-green;
+
   padding-bottom: 0.5rem;
   @media all and (min-width: 768px) {
     font-size: $sub-title-size-m;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: $title-size-m;
+  }
+}
+
+.text-enjoy {
+  font-weight: $poppins-regu;
+  @media all and (min-width: 1200px) {
+    text-align: left;
   }
 }
 
@@ -44,4 +69,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  @media all and (min-width: 1200px) {
+    width: 50%;
+  }
 }

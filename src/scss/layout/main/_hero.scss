@@ -16,6 +16,9 @@
     align-items: flex-start;
     padding-left: 9.188rem;
   }
+  @media all and (min-width: 1200px) {
+    padding-left: 17.5rem;
+  }
 }
 
 .title {

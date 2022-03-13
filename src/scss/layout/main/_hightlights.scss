@@ -2,6 +2,10 @@
   background-color: $light-grey;
   width: 100%;
   padding: 4.375rem;
+
+  @media all and (min-width: 1200px) {
+    padding: 2.625rem 17.5rem 5.375rem 17.5rem;
+  }
 }
 
 .hightlight__advertising {
@@ -11,6 +15,19 @@
   font-size: $title-size;
   text-align: center;
   vertical-align: middle;
+  @media all and (min-width: 1200px) {
+    font-size: $title-size-m;
+    max-width: 50rem;
+    margin: auto;
+  }
+}
+
+.format {
+  font-size: $title-size;
+  text-transform: uppercase;
+  @media all and (min-width: 1200px) {
+    font-size: $title-size-m;
+  }
 }
 
 .hightlight__articles {
@@ -23,13 +40,20 @@
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  @media all and (min-width: 1200px) {
+    column-gap: 15rem;
+  }
 }
 
 .hightlight-image {
+  width: 5.625rem;
+  height: 5.625rem;
   @media all and (min-width: 768px) {
-    width: 5.625rem;
-    height: 6.625rem;
     margin-bottom: 2.438rem;
+  }
+  @media all and (min-width: 1200px) {
+    width: 7.5rem;
+    height: 7.5rem;
   }
 }
 
@@ -41,14 +65,9 @@
   font-size: 1.25rem;
   text-align: center;
   vertical-align: middle;
-}
-
-.format {
-  text-transform: uppercase;
-  font-family: $poppins;
-  font-weight: $poppins-semi;
-  color: $dark-green;
-  font-size: 1.5rem;
+  @media all and (min-width: 1200px) {
+    font-size: $sub-title-size;
+  }
 }
 
 .text {
