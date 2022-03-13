@@ -1,24 +1,46 @@
-.container-2 {
+.hightlight__section {
   background-color: $light-grey;
   width: 100%;
-}
-.grid {
-  padding-top: 37px;
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 36px;
-  text-align: center;
-  padding-bottom: 20px;
+  padding: 70px;
 }
 
-.advertising {
+.hightlight__advertising {
   font-family: $poppins;
   font-weight: $poppins-semi;
   color: $dark-green;
   font-size: 1.5rem;
   text-align: center;
   vertical-align: middle;
-  padding-top: 41px;
+}
+
+.hightlight__articles {
+  padding-top: 37px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 36px;
+  text-align: center;
+  padding-bottom: 20px;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.hightlight-image {
+  @media all and (min-width: 768px) {
+    width: 90px;
+    height: 106px;
+    margin-bottom: 39px;
+  }
+}
+
+.hightlight-subtitle {
+  padding-bottom: 12px;
+  font-family: $poppins;
+  font-weight: $poppins-semi;
+  color: $dark-green;
+  font-size: 1.25rem;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .format {
@@ -27,15 +49,6 @@
   font-weight: $poppins-semi;
   color: $dark-green;
   font-size: 1.5rem;
-}
-
-.subtitle {
-  font-family: $poppins;
-  font-weight: $poppins-semi;
-  color: $dark-green;
-  font-size: 1.25rem;
-  text-align: center;
-  vertical-align: middle;
 }
 
 .text {

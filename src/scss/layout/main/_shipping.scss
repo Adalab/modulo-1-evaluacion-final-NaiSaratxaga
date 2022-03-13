@@ -13,14 +13,17 @@
   padding-bottom: 1.125rem;
 }
 
-.ship-title {
-  font-size: 1.5rem;
+.sub-title-ship {
+  font-size: $sub-title-size;
   font-weight: $poppins-semi;
-  font-size: 1.5rem;
   padding-bottom: 0.5rem;
+
+  @media all and (min-width: 768px) {
+    font-size: $sub-title-size-m;
+  }
 }
 
-.ship-subtitle {
+.text-ship {
   font-weight: $poppins-regu;
   font-size: 0.875rem;
   padding-bottom: 1.125rem;

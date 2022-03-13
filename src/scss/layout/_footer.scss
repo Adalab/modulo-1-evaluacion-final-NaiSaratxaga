@@ -1,8 +1,17 @@
 .container-footer {
   background-color: $dark-green;
+  position: relative;
+}
+
+.container-footer-navs {
   display: flex;
   flex-direction: column;
   padding: 3.65rem 1rem 3.65rem 9rem;
+  @media all and (min-width: 768px) {
+    padding: 4.375rem 7.375rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .container-footer-nav {
@@ -16,6 +25,7 @@
   font-size: 20px;
   color: $grey;
 }
+
 .subtitle-footer {
   padding-top: 12px;
   text-transform: capitalize;
@@ -33,4 +43,19 @@
 
 .container-social-links a {
   padding-right: 0.688rem;
+}
+
+.anchor-footer {
+  text-align: right;
+  padding-right: 1.75rem;
+  position: absolute;
+
+  top: 85%;
+  left: 85%;
+
+  @media all and (min-width: 768px) {
+    padding-right: 3.563rem;
+    top: 175px;
+    left: 90%;
+  }
 }

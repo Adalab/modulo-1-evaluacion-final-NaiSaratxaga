@@ -356,12 +356,21 @@ ul {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding-top: 8.75rem; }
+  @media all and (min-width: 768px) {
+    .section-hero {
+      align-items: flex-start;
+      padding-left: 9.188rem; } }
 
 .title {
   font-size: 1.5rem;
   text-align: center;
   color: #0c474b;
   margin-bottom: 0; }
+  @media all and (min-width: 768px) {
+    .title {
+      font-size: 2.25rem;
+      width: 20rem;
+      text-align: left; } }
 
 .button {
   color: #ffffff;
@@ -373,26 +382,44 @@ ul {
   border: none;
   outline: none; }
 
-.container-2 {
+.hightlight__section {
   background-color: #f0ebe5;
-  width: 100%; }
+  width: 100%;
+  padding: 70px; }
 
-.grid {
+.hightlight__advertising {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #0c474b;
+  font-size: 1.5rem;
+  text-align: center;
+  vertical-align: middle; }
+
+.hightlight__articles {
   padding-top: 37px;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 36px;
   text-align: center;
   padding-bottom: 20px; }
+  @media all and (min-width: 768px) {
+    .hightlight__articles {
+      grid-template-columns: 1fr 1fr 1fr; } }
 
-.advertising {
+@media all and (min-width: 768px) {
+  .hightlight-image {
+    width: 90px;
+    height: 106px;
+    margin-bottom: 39px; } }
+
+.hightlight-subtitle {
+  padding-bottom: 12px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #0c474b;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
-  vertical-align: middle;
-  padding-top: 41px; }
+  vertical-align: middle; }
 
 .format {
   text-transform: uppercase;
@@ -400,14 +427,6 @@ ul {
   font-weight: 600;
   color: #0c474b;
   font-size: 1.5rem; }
-
-.subtitle {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #0c474b;
-  font-size: 1.25rem;
-  text-align: center;
-  vertical-align: middle; }
 
 .text {
   font-family: "Poppins", sans-serif;
@@ -429,13 +448,15 @@ ul {
 .shipping-image {
   padding-bottom: 1.125rem; }
 
-.ship-title {
+.sub-title-ship {
   font-size: 1.5rem;
   font-weight: 600;
-  font-size: 1.5rem;
   padding-bottom: 0.5rem; }
+  @media all and (min-width: 768px) {
+    .sub-title-ship {
+      font-size: 1.875rem; } }
 
-.ship-subtitle {
+.text-ship {
   font-weight: 400;
   font-size: 0.875rem;
   padding-bottom: 1.125rem; }
@@ -457,11 +478,17 @@ ul {
 
 .container-enjoy-article {
   padding: 5.625rem 1.68rem; }
+  @media all and (min-width: 768px) {
+    .container-enjoy-article {
+      font-size: 1.875rem; } }
 
-.title {
+.sub-title-enjoy {
   font-size: 1.5rem;
   color: #0c474b;
   padding-bottom: 0.5rem; }
+  @media all and (min-width: 768px) {
+    .sub-title-enjoy {
+      font-size: 1.875rem; } }
 
 .button-enjoy {
   color: #ffffff;
@@ -474,18 +501,26 @@ ul {
   outline: none; }
 
 .enjoy-image {
-  height: 19rem;
-  width: 100%; }
-
-.anchor-footer {
-  text-align: right;
-  padding-right: 1.75rem; }
+  width: 100%;
+  height: 474px;
+  background-image: url("/assets/images/creando-espacios.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .container-footer {
   background-color: #0c474b;
+  position: relative; }
+
+.container-footer-navs {
   display: flex;
   flex-direction: column;
   padding: 3.65rem 1rem 3.65rem 9rem; }
+  @media all and (min-width: 768px) {
+    .container-footer-navs {
+      padding: 4.375rem 7.375rem;
+      flex-direction: row;
+      justify-content: space-between; } }
 
 .container-footer-nav {
   padding-bottom: 1.25rem; }
@@ -512,5 +547,17 @@ ul {
 
 .container-social-links a {
   padding-right: 0.688rem; }
+
+.anchor-footer {
+  text-align: right;
+  padding-right: 1.75rem;
+  position: absolute;
+  top: 85%;
+  left: 85%; }
+  @media all and (min-width: 768px) {
+    .anchor-footer {
+      padding-right: 3.563rem;
+      top: 175px;
+      left: 90%; } }
 
 /*# sourceMappingURL=main.css.map */

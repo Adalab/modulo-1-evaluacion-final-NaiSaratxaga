@@ -11,12 +11,18 @@
 
 .container-enjoy-article {
   padding: 5.625rem 1.68rem;
+  @media all and (min-width: 768px) {
+    font-size: $sub-title-size-m;
+  }
 }
 
-.title {
-  font-size: $title-size;
+.sub-title-enjoy {
+  font-size: $sub-title-size;
   color: $dark-green;
   padding-bottom: 0.5rem;
+  @media all and (min-width: 768px) {
+    font-size: $sub-title-size-m;
+  }
 }
 
 .button-enjoy {
@@ -31,11 +37,10 @@
 }
 
 .enjoy-image {
-  height: 19rem;
   width: 100%;
-}
-
-.anchor-footer {
-  text-align: right;
-  padding-right: 1.75rem;
+  height: 474px;
+  background-image: url("/assets/images/creando-espacios.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
