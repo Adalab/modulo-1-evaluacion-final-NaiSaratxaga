@@ -579,7 +579,7 @@ ul {
       justify-content: space-between; } }
   @media all and (min-width: 1200px) {
     .container-footer-navs {
-      padding: 4.375rem 21.875rem; } }
+      padding: 8.188rem 21.875rem; } }
 
 .container-footer-nav {
   padding-bottom: 1.25rem; }
@@ -590,6 +590,9 @@ ul {
   font-weight: 600;
   font-size: 1.25rem;
   color: #b6c8c9; }
+  @media all and (min-width: 1200px) {
+    .title-footer {
+      font-size: 1.5rem; } }
 
 .subtitle-footer {
   padding-top: 0.75rem;

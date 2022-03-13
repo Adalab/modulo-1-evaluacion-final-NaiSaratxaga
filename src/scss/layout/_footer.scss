@@ -13,7 +13,7 @@
     justify-content: space-between;
   }
   @media all and (min-width: 1200px) {
-    padding: 4.375rem 21.875rem;
+    padding: 8.188rem 21.875rem;
   }
 }
 
@@ -27,6 +27,9 @@
   font-weight: $poppins-semi;
   font-size: 1.25rem;
   color: $grey;
+  @media all and (min-width: 1200px) {
+    font-size: 1.5rem;
+  }
 }
 
 .subtitle-footer {
