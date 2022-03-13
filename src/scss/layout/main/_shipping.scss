@@ -1,0 +1,33 @@
+.container-shipping {
+  background-color: $orange;
+  color: $light-text;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3.125rem 1rem;
+  font-family: $poppins;
+}
+
+.shipping-image {
+  padding-bottom: 1.125rem;
+}
+
+.ship-title {
+  font-size: 1.5rem;
+  font-weight: $poppins-semi;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.ship-subtitle {
+  font-weight: $poppins-regu;
+  font-size: 0.875rem;
+  padding-bottom: 1.125rem;
+}
+
+.shipping-cta {
+  font-size: 1rem;
+  text-decoration: underline;
+  padding: 0.75rem;
+}

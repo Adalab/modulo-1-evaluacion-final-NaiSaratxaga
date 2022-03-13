@@ -416,45 +416,52 @@ ul {
   font-size: 1rem;
   text-align: center; }
 
-.container-3 {
+.container-shipping {
   background-color: #ff975a;
   color: #ffffff;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 46px; }
+  padding: 3.125rem 1rem;
+  font-family: "Poppins", sans-serif; }
+
+.shipping-image {
+  padding-bottom: 1.125rem; }
 
 .ship-title {
-  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #ffffff; }
+  padding-bottom: 0.5rem; }
 
 .ship-subtitle {
-  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-size: 0.875rem;
-  color: #ffffff; }
+  padding-bottom: 1.125rem; }
 
-.container-4 {
+.shipping-cta {
+  font-size: 1rem;
+  text-decoration: underline;
+  padding: 0.75rem; }
+
+.container-enjoy {
   background-color: #f0ebe5;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  padding-top: 8.75rem;
-  justify-content: center;
-  padding-bottom: 8.75rem;
   text-align: center; }
+
+.container-enjoy-article {
+  padding: 5.625rem 1.68rem; }
 
 .title {
   font-size: 1.5rem;
-  text-align: center;
   color: #0c474b;
-  margin-bottom: 0; }
+  padding-bottom: 0.5rem; }
 
 .button-enjoy {
   color: #ffffff;
@@ -466,16 +473,22 @@ ul {
   border: none;
   outline: none; }
 
-.img {
-  background-image: url("/assets/images/creando-espacios.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh; }
+.enjoy-image {
+  height: 19rem;
+  width: 100%; }
+
+.anchor-footer {
+  text-align: right;
+  padding-right: 1.75rem; }
 
 .container-footer {
-  width: 100%;
-  background-color: #0c474b; }
+  background-color: #0c474b;
+  display: flex;
+  flex-direction: column;
+  padding: 3.65rem 1rem 3.65rem 9rem; }
+
+.container-footer-nav {
+  padding-bottom: 1.25rem; }
 
 .title-footer {
   text-transform: capitalize;
@@ -485,15 +498,19 @@ ul {
   color: #b6c8c9; }
 
 .subtitle-footer {
+  padding-top: 12px;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #b6c8c9; }
 
-.icon-styles {
+.container-social-links {
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  padding: 1.5rem 0; }
+
+.container-social-links a {
+  padding-right: 0.688rem; }
 
 /*# sourceMappingURL=main.css.map */
