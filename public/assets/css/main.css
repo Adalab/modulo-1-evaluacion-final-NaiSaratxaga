@@ -317,6 +317,13 @@ a {
 ul {
   list-style: none; }
 
+.main__button-cta {
+  transition: background-color 1000ms linear; }
+
+.main__button-cta:hover {
+  transition: background-color 1000ms linear;
+  background-color: #7dd181; }
+
 .menu-icon-container {
   position: sticky;
   left: 2.063rem;
@@ -329,6 +336,28 @@ ul {
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer; }
+  @media all and (min-width: 1200px) {
+    .menu-icon {
+      display: none; } }
+
+.manu__nav--expanded {
+  display: none; }
+  @media all and (min-width: 1200px) {
+    .manu__nav--expanded {
+      display: block;
+      padding-top: 0.313rem;
+      padding-left: 15.563rem;
+      /* 17.5rem - 2.063rem from the container */ } }
+
+.manu__nav-items {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #0c474b; }
+  .manu__nav-items li {
+    padding-right: 1.875rem;
+    cursor: pointer; }
 
 .header {
   position: absolute;
@@ -596,7 +625,6 @@ ul {
 
 .subtitle-footer {
   padding-top: 0.75rem;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;

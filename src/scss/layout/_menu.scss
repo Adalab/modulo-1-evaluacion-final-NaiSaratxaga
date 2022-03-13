@@ -11,4 +11,29 @@
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
+  @media all and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.manu__nav--expanded {
+  display: none;
+  @media all and (min-width: 1200px) {
+    display: block;
+    padding-top: 0.313rem;
+    padding-left: 15.563rem; /* 17.5rem - 2.063rem from the container */
+  }
+}
+
+.manu__nav-items {
+  display: flex;
+  flex-direction: row;
+  font-family: $poppins;
+  font-weight: $poppins-regu;
+  color: $dark-green;
+
+  li {
+    padding-right: 1.875rem;
+    cursor: pointer;
+  }
 }
