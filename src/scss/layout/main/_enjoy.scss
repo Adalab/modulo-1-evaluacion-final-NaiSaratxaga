@@ -34,11 +34,12 @@
   text-transform: capitalize;
   border: none;
   outline: none;
+  font-size: $small-text-size;
 }
 
 .enjoy-image {
   width: 100%;
-  height: 474px;
+  height: 29.625rem;
   background-image: url("/assets/images/creando-espacios.jpg");
   background-size: cover;
   background-position: center;

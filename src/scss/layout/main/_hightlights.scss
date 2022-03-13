@@ -1,25 +1,25 @@
 .hightlight__section {
   background-color: $light-grey;
   width: 100%;
-  padding: 70px;
+  padding: 4.375rem;
 }
 
 .hightlight__advertising {
   font-family: $poppins;
   font-weight: $poppins-semi;
   color: $dark-green;
-  font-size: 1.5rem;
+  font-size: $title-size;
   text-align: center;
   vertical-align: middle;
 }
 
 .hightlight__articles {
-  padding-top: 37px;
+  padding-top: 2.313rem;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 36px;
+  row-gap: 2.25rem;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   @media all and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -27,14 +27,14 @@
 
 .hightlight-image {
   @media all and (min-width: 768px) {
-    width: 90px;
-    height: 106px;
-    margin-bottom: 39px;
+    width: 5.625rem;
+    height: 6.625rem;
+    margin-bottom: 2.438rem;
   }
 }
 
 .hightlight-subtitle {
-  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
   font-family: $poppins;
   font-weight: $poppins-semi;
   color: $dark-green;

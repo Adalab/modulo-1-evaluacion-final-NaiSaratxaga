@@ -22,16 +22,16 @@
   text-transform: capitalize;
   font-family: $poppins;
   font-weight: $poppins-semi;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: $grey;
 }
 
 .subtitle-footer {
-  padding-top: 12px;
+  padding-top: 0.75rem;
   text-transform: capitalize;
   font-family: $poppins;
   font-weight: $poppins-regu;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: $grey;
 }
 
@@ -55,7 +55,7 @@
 
   @media all and (min-width: 768px) {
     padding-right: 3.563rem;
-    top: 175px;
+    top: 10.938rem;
     left: 90%;
   }
 }

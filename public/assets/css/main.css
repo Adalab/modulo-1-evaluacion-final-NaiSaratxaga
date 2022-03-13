@@ -319,15 +319,15 @@ ul {
 
 .menu-icon-container {
   position: sticky;
-  left: 33px;
-  top: 55px;
+  left: 2.063rem;
+  top: 3.438rem;
   height: 0;
-  padding-left: 33px;
+  padding-left: 2.063rem;
   z-index: 99; }
 
 .menu-icon {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer; }
 
 .header {
@@ -335,13 +335,13 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem;
   z-index: 98;
   width: 100%; }
 
 .logo {
-  width: 213px;
-  height: 96px; }
+  width: 13.313rem;
+  height: 6rem; }
 
 .section-hero {
   display: flex;
@@ -385,7 +385,7 @@ ul {
 .hightlight__section {
   background-color: #f0ebe5;
   width: 100%;
-  padding: 70px; }
+  padding: 4.375rem; }
 
 .hightlight__advertising {
   font-family: "Poppins", sans-serif;
@@ -396,24 +396,24 @@ ul {
   vertical-align: middle; }
 
 .hightlight__articles {
-  padding-top: 37px;
+  padding-top: 2.313rem;
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 36px;
+  row-gap: 2.25rem;
   text-align: center;
-  padding-bottom: 20px; }
+  padding-bottom: 1.25rem; }
   @media all and (min-width: 768px) {
     .hightlight__articles {
       grid-template-columns: 1fr 1fr 1fr; } }
 
 @media all and (min-width: 768px) {
   .hightlight-image {
-    width: 90px;
-    height: 106px;
-    margin-bottom: 39px; } }
+    width: 5.625rem;
+    height: 6.625rem;
+    margin-bottom: 2.438rem; } }
 
 .hightlight-subtitle {
-  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   color: #0c474b;
@@ -498,11 +498,12 @@ ul {
   cursor: pointer;
   text-transform: capitalize;
   border: none;
-  outline: none; }
+  outline: none;
+  font-size: 1rem; }
 
 .enjoy-image {
   width: 100%;
-  height: 474px;
+  height: 29.625rem;
   background-image: url("/assets/images/creando-espacios.jpg");
   background-size: cover;
   background-position: center;
@@ -529,15 +530,15 @@ ul {
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #b6c8c9; }
 
 .subtitle-footer {
-  padding-top: 12px;
+  padding-top: 0.75rem;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #b6c8c9; }
 
 .container-social-links {
@@ -557,7 +558,7 @@ ul {
   @media all and (min-width: 768px) {
     .anchor-footer {
       padding-right: 3.563rem;
-      top: 175px;
+      top: 10.938rem;
       left: 90%; } }
 
 /*# sourceMappingURL=main.css.map */
