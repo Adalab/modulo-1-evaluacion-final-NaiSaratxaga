@@ -349,13 +349,13 @@ ul {
       padding-left: 15.563rem;
       /* 17.5rem - 2.063rem from the container */ } }
 
-.manu__nav-items {
+.menu__nav-items {
   display: flex;
   flex-direction: row;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #0c474b; }
-  .manu__nav-items li {
+  .menu__nav-items li {
     padding-right: 1.875rem;
     cursor: pointer; }
 
@@ -649,5 +649,13 @@ ul {
       padding-right: 3.563rem;
       top: 10.938rem;
       left: 90%; } }
+  @media all and (min-width: 1200px) {
+    .anchor-footer {
+      top: 14.438rem; } }
+
+.footer-menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

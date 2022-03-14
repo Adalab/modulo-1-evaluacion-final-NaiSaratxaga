@@ -63,4 +63,13 @@
     top: 10.938rem;
     left: 90%;
   }
+  @media all and (min-width: 1200px) {
+    top: 14.438rem;
+  }
+}
+
+.footer-menu-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
 }
