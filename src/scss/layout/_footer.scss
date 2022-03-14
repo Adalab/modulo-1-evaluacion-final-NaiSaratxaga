@@ -1,53 +1,52 @@
 .container-footer {
   background-color: $dark-green;
   position: relative;
-}
 
-.container-footer-navs {
-  display: flex;
-  flex-direction: column;
-  padding: 3.65rem 1rem 3.65rem 9rem;
-  @media all and (min-width: 768px) {
-    padding: 4.375rem 7.375rem;
-    flex-direction: row;
-    justify-content: space-between;
+  .container-footer-navs {
+    display: flex;
+    flex-direction: column;
+    padding: 3.65rem 1rem 3.65rem 9rem;
+    @media all and (min-width: 768px) {
+      padding: 4.375rem 7.375rem;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 8.188rem 21.875rem;
+    }
+    .container-footer-nav {
+      padding-bottom: 1.25rem;
+
+      .title-footer {
+        text-transform: capitalize;
+        font-family: $poppins;
+        font-weight: $poppins-semi;
+        font-size: 1.25rem;
+        color: $grey;
+        @media all and (min-width: 1200px) {
+          font-size: 1.5rem;
+        }
+      }
+
+      .subtitle-footer {
+        padding-top: 0.75rem;
+        font-family: $poppins;
+        font-weight: $poppins-regu;
+        font-size: 0.875rem;
+        color: $grey;
+      }
+    }
   }
-  @media all and (min-width: 1200px) {
-    padding: 8.188rem 21.875rem;
-  }
-}
-
-.container-footer-nav {
-  padding-bottom: 1.25rem;
-}
-
-.title-footer {
-  text-transform: capitalize;
-  font-family: $poppins;
-  font-weight: $poppins-semi;
-  font-size: 1.25rem;
-  color: $grey;
-  @media all and (min-width: 1200px) {
-    font-size: 1.5rem;
-  }
-}
-
-.subtitle-footer {
-  padding-top: 0.75rem;
-  font-family: $poppins;
-  font-weight: $poppins-regu;
-  font-size: 0.875rem;
-  color: $grey;
 }
 
 .container-social-links {
   display: flex;
   flex-direction: row;
   padding: 1.5rem 0;
-}
 
-.container-social-links a {
-  padding-right: 0.688rem;
+  & a {
+    padding-right: 0.688rem;
+  }
 }
 
 .anchor-footer {
@@ -56,7 +55,7 @@
   position: absolute;
   top: 85%;
   left: 85%;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: intro;
   animation-iteration-count: 1;
   animation-timing-function: linear;

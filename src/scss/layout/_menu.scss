@@ -1,18 +1,18 @@
-.menu-icon-container {
+.menu__container {
   position: sticky;
   left: 2.063rem;
   top: 3.438rem;
   height: 0;
   padding-left: 2.063rem;
   z-index: 99;
-}
 
-.menu-icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  cursor: pointer;
-  @media all and (min-width: 1200px) {
-    display: none;
+  .menu-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    @media all and (min-width: 1200px) {
+      display: none;
+    }
   }
 }
 
@@ -23,17 +23,16 @@
     padding-top: 0.313rem;
     padding-left: 15.563rem; /* 17.5rem - 2.063rem from the container */
   }
-}
+  .menu__nav-items {
+    display: flex;
+    flex-direction: row;
+    font-family: $poppins;
+    font-weight: $poppins-regu;
+    color: $dark-green;
 
-.menu__nav-items {
-  display: flex;
-  flex-direction: row;
-  font-family: $poppins;
-  font-weight: $poppins-regu;
-  color: $dark-green;
-
-  li {
-    padding-right: 1.875rem;
-    cursor: pointer;
+    & li {
+      padding-right: 1.875rem;
+      cursor: pointer;
+    }
   }
 }
