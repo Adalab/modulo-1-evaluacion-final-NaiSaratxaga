@@ -54,9 +54,12 @@
   text-align: right;
   padding-right: 1.75rem;
   position: absolute;
-
   top: 85%;
   left: 85%;
+  animation-duration: 3s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
 
   @media all and (min-width: 768px) {
     padding-right: 3.563rem;
@@ -64,7 +67,17 @@
     left: 90%;
   }
   @media all and (min-width: 1200px) {
-    top: 14.438rem;
+    top: 14.938rem;
+  }
+  @keyframes intro {
+    from {
+      opacity: 0;
+      color: white;
+    }
+
+    to {
+      opacity: 1;
+    }
   }
 }
 

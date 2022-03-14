@@ -643,7 +643,15 @@ ul {
   padding-right: 1.75rem;
   position: absolute;
   top: 85%;
-  left: 85%; }
+  left: 85%;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: intro;
+  animation-name: intro;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear; }
   @media all and (min-width: 768px) {
     .anchor-footer {
       padding-right: 3.563rem;
@@ -651,7 +659,21 @@ ul {
       left: 90%; } }
   @media all and (min-width: 1200px) {
     .anchor-footer {
-      top: 14.438rem; } }
+      top: 14.938rem; } }
+
+@-webkit-keyframes intro {
+  from {
+    opacity: 0;
+    color: white; }
+  to {
+    opacity: 1; } }
+
+@keyframes intro {
+  from {
+    opacity: 0;
+    color: white; }
+  to {
+    opacity: 1; } }
 
 .footer-menu-icon {
   width: 1.5rem;
