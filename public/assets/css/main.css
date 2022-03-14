@@ -340,10 +340,10 @@ ul {
     .menu-icon {
       display: none; } }
 
-.manu__nav--expanded {
+.menu__nav--expanded {
   display: none; }
   @media all and (min-width: 1200px) {
-    .manu__nav--expanded {
+    .menu__nav--expanded {
       display: block;
       padding-top: 0.313rem;
       padding-left: 15.563rem;
@@ -377,7 +377,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -585,7 +585,7 @@ ul {
 .enjoy-image {
   width: 100%;
   height: 29.625rem;
-  background-image: url("/assets/images/creando-espacios.jpg");
+  background-image: url("../images/creando-espacios.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
