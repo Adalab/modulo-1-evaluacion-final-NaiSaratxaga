@@ -1,0 +1,34 @@
+.section {
+  width: 100%;
+  background-color: $orange;
+
+  @media all and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.title_sale {
+  font-family: $poppins;
+  font-weight: $poppins-semi;
+  font-size: $sub-title-size;
+  color: $light-text;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media all and (min-width: 768px) {
+    text-align: center;
+    top: 0;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-title-sale {
+  font-family: $poppins;
+  font-weight: $poppins-regu;
+  font-size: $sub-title-size;
+  color: $light-text;
+}
