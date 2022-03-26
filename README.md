@@ -6,10 +6,11 @@ Ejercicio para la evaluación final del primer módulo realizado en Adalab.
 
 Desarrollar una página web de acuerdo a un diseño dado.
 Maquetación, en versión móvil, tablet y desktop, de la Home de una web llamada Open Spaces.
-Para realizar el ejercicio se debe usar
+Para realizar el ejercicio se debe usar:
 
 Html, Sass, Flexbox y CSS Grid.
-Y se deben resolver algunas interacciones usando transiciones.
+
+también debemos resolver algunas interacciones usando transiciones.
 
 ## Instalación
 
@@ -18,11 +19,13 @@ npm install
 npm start
 
 ## Herramientas utilizadas
+
 . Visual Studio Code
 . GitHub
 . Git
 . AWSK
 
 ## Lenguajes utilizados
+
 . HTML
 . SASS 
