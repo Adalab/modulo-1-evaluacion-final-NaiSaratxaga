@@ -490,10 +490,12 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 3.125rem 1rem;
   font-family: "Poppins", sans-serif; }
   .shipping__image {
+    display: block;
     width: 7.5rem;
     height: 7.5rem;
     margin-bottom: 1.125rem; }
