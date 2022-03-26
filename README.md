@@ -18,11 +18,11 @@ npm install
 npm start
 
 ## Herramientas utilizadas
-Visual Studio Code
-GitHub
-Git
-AWSK
+. Visual Studio Code
+. GitHub
+. Git
+. AWSK
 
 ## Lenguajes utilizados
-HTML
-SASS 
+. HTML
+. SASS 
