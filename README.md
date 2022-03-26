@@ -10,7 +10,7 @@ Para realizar el ejercicio se debe usar:
 
 Html, Sass, Flexbox y CSS Grid.
 
-también debemos resolver algunas interacciones usando transiciones.
+También debemos resolver algunas interacciones usando transiciones.
 
 ## Instalación
 
